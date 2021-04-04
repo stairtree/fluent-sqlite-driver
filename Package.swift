@@ -11,8 +11,8 @@ let package = Package(
         .library(name: "FluentSQLiteDriver", targets: ["FluentSQLiteDriver"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/stairtree/fluent-kit.git", .branch("master")),
-        .package(url: "https://github.com/stairtree/sqlite-kit.git", .branch("master")),
+        .package(url: "https://github.com/stairtree/fluent-kit.git", .branch("main")),
+        .package(url: "https://github.com/stairtree/sqlite-kit.git", .branch("main")),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
